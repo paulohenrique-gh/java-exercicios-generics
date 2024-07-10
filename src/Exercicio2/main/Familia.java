@@ -1,18 +1,17 @@
 package Exercicio2.main;
 
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class Familia<T extends MembroFamilia> {
-    private Set<T> membros;
+    private List<T> membros;
 
     public Familia() {
-        this.membros = new HashSet<>();
+        this.membros = new ArrayList<>();
     }
 
     public List<T> getMembros() {
-        return this.membros.stream().toList();
+        return this.membros;
     }
 
     public void adicionarMembro(T membro) {

@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/main/Familia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/main/Filho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/main/Mae.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/main/MembroFamilia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/main/Pai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/test/FamiliaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/test/FilhoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/test/MaeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio2/test/PaiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/main/Analista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/main/Desenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/main/Designer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/main/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/main/Funcionarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/test/AnalistaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/test/DesenvolvedorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/test/DesignerTest.java" afterDir="false" />
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exercicio 3">
+      <change afterPath="$PROJECT_DIR$/src/Exercicio3/test/FuncionariosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio1/main/Fila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio1/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/FilaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio1/test/FilaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio2/main/Familia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio2/main/Familia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio3/main/Funcionarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio3/main/Funcionarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in ExerciciosGenerics (1).executor": "Run",
     "JUnit.All in ExerciciosGenerics.executor": "Run",
     "JUnit.Exercicio1 in ExerciciosGenerics.executor": "Run",
     "JUnit.Exercicio2.test in ExerciciosGenerics.executor": "Run",
@@ -72,6 +56,9 @@
     "JUnit.FilaTest.isVaziaDeveRetornarVerdadeiroSeFilaEstiverVazia.executor": "Run",
     "JUnit.FilhoTest.executor": "Run",
     "JUnit.FilhoTest.seApresentaInformandoNomeEIdade.executor": "Run",
+    "JUnit.FuncionariosTest.devePermitirAdicionarFuncionario.executor": "Run",
+    "JUnit.FuncionariosTest.devePermitirRemoverFuncionario.executor": "Run",
+    "JUnit.FuncionariosTest.executor": "Run",
     "JUnit.MaeTest.seApresentaInformandoNomeEIdade.executor": "Run",
     "JUnit.PaiTest.seApresentaInformandoNomeEIdade.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -104,8 +91,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Exercicio3.main" />
       <recent name="Exercicio3.test" />
+      <recent name="Exercicio3.main" />
       <recent name="Exercicio2.test" />
       <recent name="" />
     </key>
@@ -119,15 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in ExerciciosGenerics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExerciciosGenerics" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercicio3.test in ExerciciosGenerics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionariosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
@@ -136,37 +115,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Exercicio3.test" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FamiliaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExerciciosGenerics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercicio2.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Exercicio2.test" />
-      <option name="MAIN_CLASS_NAME" value="Exercicio2.test.FamiliaTest" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio3.test.FuncionariosTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamiliaTest.deveFornecerListaDeMembros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncionariosTest.deveFornecerListaDeFuncionarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio2.test.*" />
+          <option name="PATTERN" value="Exercicio3.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Exercicio2.test" />
-      <option name="MAIN_CLASS_NAME" value="Exercicio2.test.FamiliaTest" />
-      <option name="METHOD_NAME" value="deveFornecerListaDeMembros" />
+      <option name="PACKAGE_NAME" value="Exercicio3.test" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio3.test.FuncionariosTest" />
+      <option name="METHOD_NAME" value="deveFornecerListaDeFuncionarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncionariosTest.devePermitirAdicionarFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExerciciosGenerics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Exercicio3.test" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio3.test.FuncionariosTest" />
+      <option name="METHOD_NAME" value="devePermitirAdicionarFuncionario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncionariosTest.devePermitirRemoverFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExerciciosGenerics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Exercicio3.test" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio3.test.FuncionariosTest" />
+      <option name="METHOD_NAME" value="devePermitirRemoverFuncionario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,10 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in ExerciciosGenerics (1)" />
-        <item itemvalue="JUnit.All in ExerciciosGenerics" />
-        <item itemvalue="JUnit.Exercicio3.test in ExerciciosGenerics" />
-        <item itemvalue="JUnit.FamiliaTest" />
-        <item itemvalue="JUnit.FamiliaTest.deveFornecerListaDeMembros" />
+        <item itemvalue="JUnit.FuncionariosTest.deveFornecerListaDeFuncionarios" />
+        <item itemvalue="JUnit.FuncionariosTest.devePermitirRemoverFuncionario" />
+        <item itemvalue="JUnit.FuncionariosTest" />
+        <item itemvalue="JUnit.FuncionariosTest.devePermitirAdicionarFuncionario" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +195,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
-      <workItem from="1720614149448" duration="14018000" />
+      <workItem from="1720614149448" duration="15721000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -208,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720618580932</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercicio 2">
+      <option name="closed" value="true" />
+      <created>1720635132730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720635132730</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercicio 3">
+      <option name="closed" value="true" />
+      <created>1720635140342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720635140342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários" />
+    <MESSAGE value="Exercicio 2" />
+    <MESSAGE value="Exercicio 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 3" />
   </component>
 </project>
