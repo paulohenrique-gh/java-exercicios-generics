@@ -40,9 +40,9 @@ class SimuladorRedeTest {
         simulador.adicionarComponente(computador);
         simulador.adicionarComponente(smartTv);
 
-        String saidaEsperada = "Enviando dados via rede sem fio para componente Samsung" +
-                "\r\nEnviando dados via rede sem fio para componente Dell" +
-                "\r\nEnviando dados via rede sem fio para componente Sony";
+        String saidaEsperada = "Enviando dados via rede sem fio para componente Samsung" + System.lineSeparator() +
+                "Enviando dados via rede sem fio para componente Dell" + System.lineSeparator() +
+                "Enviando dados via rede sem fio para componente Sony";
         simulador.simular();
 
         assertEquals(saidaEsperada, saidaStream.toString().trim());

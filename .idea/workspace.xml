@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Adiciona testes unitarios Exercicio 3">
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/SimuladorRede.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/componentes/Celular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/componentes/ComponenteRede.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/componentes/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/componentes/SmartTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/redes/Rede.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/redes/RedeLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/redes/RedeWAN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/redes/RedeWiFi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercicio4/test/SimuladorRedeTest.java" afterDir="false" />
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exercício 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio4/test/SimuladorRedeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio4/test/SimuladorRedeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +101,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in ExerciciosGenerics">
+  <component name="RunManager" selected="JUnit.SimuladorRedeTest.deveSimularEnvioDeDadosParaComponentes">
     <configuration name="All in ExerciciosGenerics (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <option name="PACKAGE_NAME" value="" />
@@ -177,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in ExerciciosGenerics" />
         <item itemvalue="JUnit.SimuladorRedeTest.deveSimularEnvioDeDadosParaComponentes" />
+        <item itemvalue="JUnit.All in ExerciciosGenerics" />
         <item itemvalue="JUnit.SimuladorRedeTest.devePermitirAdicionarComponente" />
         <item itemvalue="JUnit.All in ExerciciosGenerics (1)" />
         <item itemvalue="JUnit.FuncionariosTest.deveFornecerListaDeFuncionarios" />
@@ -201,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
-      <workItem from="1720614149448" duration="20105000" />
+      <workItem from="1720614149448" duration="20310000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -235,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720636921079</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercício 4">
+      <option name="closed" value="true" />
+      <created>1720641324856</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720641324856</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +245,7 @@
     <MESSAGE value="Exercicio 2" />
     <MESSAGE value="Exercicio 3" />
     <MESSAGE value="Adiciona testes unitarios Exercicio 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona testes unitarios Exercicio 3" />
+    <MESSAGE value="Exercício 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício 4" />
   </component>
 </project>
