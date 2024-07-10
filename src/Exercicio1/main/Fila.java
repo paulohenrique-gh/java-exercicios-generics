@@ -1,10 +1,10 @@
-package main;
+package Exercicio1.main;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Fila<T> {
-    List<T> elementos;
+    private List<T> elementos;
 
     public Fila() {
         this.elementos = new ArrayList<T>();

@@ -1,6 +1,6 @@
-package test;
+package Exercicio1.test;
 
-import main.Fila;
+import Exercicio1.main.Fila;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
