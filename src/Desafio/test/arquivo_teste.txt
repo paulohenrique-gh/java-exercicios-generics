@@ -1,0 +1,2 @@
+esse é o arquivo de teste txt
+linha 2

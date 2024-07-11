@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exemplo exercício 5">
-      <change afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoMarkdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoTexto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoTxt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/main/teste.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/main/teste.txt" afterDir="false" />
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="WIP: desafio">
+      <change afterPath="$PROJECT_DIR$/src/Desafio/main/AnalisadorDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafio/test/AnalisadorDadosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafio/test/arquivo_teste.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Desafio/test/arquivo_teste.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio/main/ArquivoMarkdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoMarkdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio/main/ArquivoTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoTexto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio/main/ArquivoTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio/main/teste.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/teste.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Desafio/main/teste.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/teste.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +27,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,6 +55,10 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in ExerciciosGenerics (1).executor": "Run",
     "JUnit.All in ExerciciosGenerics.executor": "Run",
+    "JUnit.AnalisadorDadosTest.deveDefinirAtributosAoRealisarAnalise.executor": "Run",
+    "JUnit.AnalisadorDadosTest.deveGerarErroComArquivoNaoLocalizado.executor": "Run",
+    "JUnit.AnalisadorDadosTest.deveRedefinirAtributosAoMudarArquivo.executor": "Run",
+    "JUnit.Desafio in ExerciciosGenerics.executor": "Run",
     "JUnit.Exercicio1 in ExerciciosGenerics.executor": "Run",
     "JUnit.Exercicio2.test in ExerciciosGenerics.executor": "Run",
     "JUnit.Exercicio3.test in ExerciciosGenerics.executor": "Run",
@@ -113,86 +121,99 @@
       <recent name="D:\Java\t-ready\ExerciciosGenerics\src\Desafio\main" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Desafio.test" />
       <recent name="Exercicio5.test" />
       <recent name="Exercicio4.test" />
       <recent name="Exercicio3.test" />
       <recent name="Exercicio3.main" />
-      <recent name="Exercicio2.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Desafio.main.Main">
-    <configuration name="Desafio.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Desafio.main.Main" />
+  <component name="RunManager" selected="JUnit.AnalisadorDadosTest.deveGerarErroComArquivoNaoLocalizado">
+    <configuration name="AnalisadorDadosTest.deveDefinirAtributosAoImprimirResumo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Desafio.main.*" />
+          <option name="PATTERN" value="Desafio.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Desafio.test" />
+      <option name="MAIN_CLASS_NAME" value="Desafio.test.AnalisadorDadosTest" />
+      <option name="METHOD_NAME" value="deveDefinirAtributosAoImprimirResumo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio2.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio2.main.Main" />
+    <configuration name="AnalisadorDadosTest.deveDefinirAtributosAoRealisarAnalise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio2.main.*" />
+          <option name="PATTERN" value="Desafio.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Desafio.test" />
+      <option name="MAIN_CLASS_NAME" value="Desafio.test.AnalisadorDadosTest" />
+      <option name="METHOD_NAME" value="deveDefinirAtributosAoRealisarAnalise" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio3.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio3.main.Main" />
+    <configuration name="AnalisadorDadosTest.deveGerarErroComArquivoNaoLocalizado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio3.main.*" />
+          <option name="PATTERN" value="Desafio.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Desafio.test" />
+      <option name="MAIN_CLASS_NAME" value="Desafio.test.AnalisadorDadosTest" />
+      <option name="METHOD_NAME" value="deveGerarErroComArquivoNaoLocalizado" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio4.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio4.main.Main" />
+    <configuration name="AnalisadorDadosTest.deveRedefinirAtributosAoMudarArquivo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio4.main.*" />
+          <option name="PATTERN" value="Desafio.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Desafio.test" />
+      <option name="MAIN_CLASS_NAME" value="Desafio.test.AnalisadorDadosTest" />
+      <option name="METHOD_NAME" value="deveRedefinirAtributosAoMudarArquivo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio5.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio5.main.Main" />
+    <configuration name="Desafio in ExerciciosGenerics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio5.main.*" />
+          <option name="PATTERN" value="Desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Desafio" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Desafio.main.Main" />
-        <item itemvalue="Application.Exercicio5.main.Main" />
-        <item itemvalue="Application.Exercicio4.main.Main" />
-        <item itemvalue="Application.Exercicio3.main.Main" />
-        <item itemvalue="Application.Exercicio2.main.Main" />
+        <item itemvalue="JUnit.AnalisadorDadosTest.deveGerarErroComArquivoNaoLocalizado" />
+        <item itemvalue="JUnit.AnalisadorDadosTest.deveDefinirAtributosAoImprimirResumo" />
+        <item itemvalue="JUnit.AnalisadorDadosTest.deveRedefinirAtributosAoMudarArquivo" />
+        <item itemvalue="JUnit.Desafio in ExerciciosGenerics" />
+        <item itemvalue="JUnit.AnalisadorDadosTest.deveDefinirAtributosAoRealisarAnalise" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +234,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
       <workItem from="1720614149448" duration="24137000" />
-      <workItem from="1720701224350" duration="6228000" />
+      <workItem from="1720701224350" duration="14507000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -311,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720704408275</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="WIP: desafio">
+      <option name="closed" value="true" />
+      <created>1720707532583</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720707532583</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +359,7 @@
     <MESSAGE value="Exemplo exercício 3" />
     <MESSAGE value="Exemplo exercício 4" />
     <MESSAGE value="Exemplo exercício 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exemplo exercício 5" />
+    <MESSAGE value="WIP: desafio" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP: desafio" />
   </component>
 </project>

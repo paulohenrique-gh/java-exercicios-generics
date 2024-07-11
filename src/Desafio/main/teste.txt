@@ -1,1 +1,3 @@
 teste arquivo txt
+essa é a segunda linha
+essa é a terceira e última linha
