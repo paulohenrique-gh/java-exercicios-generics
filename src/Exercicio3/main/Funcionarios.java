@@ -1,9 +1,7 @@
 package Exercicio3.main;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class Funcionarios<T extends Funcionario> {
     private List<T> funcionarios;
