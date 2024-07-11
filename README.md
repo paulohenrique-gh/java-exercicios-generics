@@ -1,5 +1,7 @@
 Não fazem parte dos exercícios, mas foram inclusos também testes nas soluções para fins didáticos
 
+----
+
 1. Criar uma classe genérica Fila que implementa uma fila FIFO. A fila deve ser capaz de
    armazenar qualquer tipo de dado e ter métodos para enfileirar, desenfileirar e verificar se está
    vazia.
