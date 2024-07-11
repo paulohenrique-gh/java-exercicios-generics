@@ -25,4 +25,8 @@ public class Fila<T> {
     public boolean isVazia() {
         return this.elementos.isEmpty();
     }
+
+    public void imprimirConteudo() {
+        this.elementos.forEach(System.out::println);
+    }
 }
