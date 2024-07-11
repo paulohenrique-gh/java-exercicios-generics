@@ -9,8 +9,6 @@ public class AnalisadorDados<T extends ArquivoTexto> {
     private int numLinhas;
     private int numPalavras;
 
-    public AnalisadorDados() {}
-
     // https://www.w3schools.com/java/java_files_read.asp
     // https://www.baeldung.com/java-try-with-resources
     private void analisarConteudo() throws IOException {
