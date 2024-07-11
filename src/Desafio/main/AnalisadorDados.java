@@ -18,9 +18,6 @@ public class AnalisadorDados<T extends ArquivoTexto> {
     // https://www.baeldung.com/java-try-with-resources
     private void analisarConteudo() throws IOException {
         try (Scanner leitor = new Scanner(this.arquivo)) {
-            Path caminhoArquivo = Paths.get(this.arquivo.getPath());
-            this.setNumLinhas((int) Files.lines(caminhoArquivo).count());
-
             StringBuilder stringBuilder = new StringBuilder();
             int contadorLinhas = 0;
             int contadorPalavras = 0;
@@ -34,7 +31,8 @@ public class AnalisadorDados<T extends ArquivoTexto> {
             }
 
             this.setConteudo(stringBuilder.toString().trim());
-            this.setNumPalavras(this.getNumPalavras() + contadorPalavras);
+            this.setNumLinhas(contadorLinhas);
+            this.setNumPalavras(contadorPalavras);
         } catch (IOException e) {
             throw new IOException("Erro na leitura do arquivo");
         };

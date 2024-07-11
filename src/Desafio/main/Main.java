@@ -16,6 +16,8 @@ public class Main {
             analisadorDados.setArquivo(arquivoTxt);
             analisadorDados.imprimirResumoDados();
 
+            System.out.println("====");
+
             Path caminhoMd = FileSystems.getDefault().getPath("src/Desafio/main/teste.md");
             ArquivoMarkdown arquivoMarkdown = new ArquivoMarkdown(caminhoMd.toString());
 
