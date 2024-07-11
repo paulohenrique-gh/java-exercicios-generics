@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="WIP: desafio">
-      <change afterPath="$PROJECT_DIR$/src/Desafio/main/AnalisadorDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/test/AnalisadorDadosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/test/arquivo_teste.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Desafio/test/arquivo_teste.txt" afterDir="false" />
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Solução do desafio&#10;&#10;Inclusos também testes unitários para praticar">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafio/main/ArquivoMarkdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoMarkdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafio/main/ArquivoTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoTexto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafio/main/ArquivoTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/ArquivoTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafio/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafio/main/teste.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/teste.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Desafio/main/teste.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/teste.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +46,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in ExerciciosGenerics (1).executor": "Run",
     "JUnit.All in ExerciciosGenerics.executor": "Run",
+    "JUnit.AnalisadorDadosTest.deveDefinirAtributosAoImprimirResumo.executor": "Run",
     "JUnit.AnalisadorDadosTest.deveDefinirAtributosAoRealisarAnalise.executor": "Run",
     "JUnit.AnalisadorDadosTest.deveGerarErroComArquivoNaoLocalizado.executor": "Run",
     "JUnit.AnalisadorDadosTest.deveRedefinirAtributosAoMudarArquivo.executor": "Run",
@@ -234,7 +226,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
       <workItem from="1720614149448" duration="24137000" />
-      <workItem from="1720701224350" duration="14507000" />
+      <workItem from="1720701224350" duration="14848000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -340,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720707532583</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Solução do desafio&#10;&#10;Inclusos também testes unitários para praticar">
+      <option name="closed" value="true" />
+      <created>1720724315863</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720724315863</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +360,7 @@
     <MESSAGE value="Exemplo exercício 4" />
     <MESSAGE value="Exemplo exercício 5" />
     <MESSAGE value="WIP: desafio" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP: desafio" />
+    <MESSAGE value="Solução do desafio&#10;&#10;Inclusos também testes unitários para praticar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solução do desafio&#10;&#10;Inclusos também testes unitários para praticar" />
   </component>
 </project>
