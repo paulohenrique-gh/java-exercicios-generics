@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Ajuste formatação readme">
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Remove linhas desnecessárias ao analisar conteudo do arquivo no desafio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Desafio/main/AnalisadorDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/AnalisadorDados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Desafio/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio/main/Main.java" afterDir="false" />
@@ -224,7 +224,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
       <workItem from="1720614149448" duration="24137000" />
-      <workItem from="1720701224350" duration="15083000" />
+      <workItem from="1720701224350" duration="15235000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -354,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720724656028</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Remove linhas desnecessárias ao analisar conteudo do arquivo no desafio">
+      <option name="closed" value="true" />
+      <created>1720724854498</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720724854498</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +385,7 @@
     <MESSAGE value="Solução do desafio&#10;&#10;Inclusos também testes unitários para praticar" />
     <MESSAGE value="Adiciona README.md" />
     <MESSAGE value="Ajuste formatação readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste formatação readme" />
+    <MESSAGE value="Remove linhas desnecessárias ao analisar conteudo do arquivo no desafio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove linhas desnecessárias ao analisar conteudo do arquivo no desafio" />
   </component>
 </project>
