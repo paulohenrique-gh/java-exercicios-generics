@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exercício 5">
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exemplo exercício 1">
+      <change afterPath="$PROJECT_DIR$/src/Exercicio2/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio1/main/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio1/main/Fila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio1/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio1/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio1/test/FilaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio1/test/FilaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Exercicio2.main.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in ExerciciosGenerics (1).executor": "Run",
@@ -109,7 +108,20 @@
       <recent name="Exercicio2.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Exercicio2.main.Main">
+    <configuration name="Exercicio2.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio2.main.Main" />
+      <module name="ExerciciosGenerics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio2.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio1.main.Main" />
       <module name="ExerciciosGenerics" />
@@ -163,29 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GerenciadorPersonagensTest.devePermitirRemoverPersonagem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExerciciosGenerics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exercicio5.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Exercicio5.test" />
-      <option name="MAIN_CLASS_NAME" value="Exercicio5.test.GerenciadorPersonagensTest" />
-      <option name="METHOD_NAME" value="devePermitirRemoverPersonagem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio2.main.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FilaTest.deveImprimirConteúdo" />
         <item itemvalue="JUnit.All in ExerciciosGenerics (1)" />
         <item itemvalue="JUnit.GerenciadorPersonagensTest.deveFornecerListaDePersonagens" />
-        <item itemvalue="JUnit.GerenciadorPersonagensTest.devePermitirRemoverPersonagem" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
       <workItem from="1720614149448" duration="24137000" />
-      <workItem from="1720701224350" duration="758000" />
+      <workItem from="1720701224350" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -264,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720701255637</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exemplo exercício 1">
+      <option name="closed" value="true" />
+      <created>1720702018778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720702018778</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +282,7 @@
     <MESSAGE value="Exercício 4" />
     <MESSAGE value="Adiciona separador de linha padrão no teste de simulação de rede" />
     <MESSAGE value="Exercício 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercício 5" />
+    <MESSAGE value="Exemplo exercício 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemplo exercício 1" />
   </component>
 </project>
