@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exemplo exercício 2">
-      <change afterPath="$PROJECT_DIR$/src/Exercicio3/main/Main.java" afterDir="false" />
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exemplo exercício 3">
+      <change afterPath="$PROJECT_DIR$/src/Exercicio4/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio3/main/Funcionarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio3/main/Funcionarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Exercicio2.main.Main.executor": "Run",
+    "Application.Exercicio3.main.Main.executor": "Run",
+    "Application.Exercicio4.main.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in ExerciciosGenerics (1).executor": "Run",
@@ -109,7 +110,7 @@
       <recent name="Exercicio2.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercicio3.main.Main">
+  <component name="RunManager" selected="Application.Exercicio4.main.Main">
     <configuration name="Exercicio2.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio2.main.Main" />
       <module name="ExerciciosGenerics" />
@@ -136,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercicio4.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio4.main.Main" />
+      <module name="ExerciciosGenerics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio4.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercicio1.main.Main" />
       <module name="ExerciciosGenerics" />
@@ -145,14 +159,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in ExerciciosGenerics (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExerciciosGenerics" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio4.main.Main" />
         <item itemvalue="Application.Exercicio3.main.Main" />
         <item itemvalue="Application.Exercicio2.main.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FilaTest.deveImprimirConteúdo" />
-        <item itemvalue="JUnit.All in ExerciciosGenerics (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
       <workItem from="1720614149448" duration="24137000" />
-      <workItem from="1720701224350" duration="1618000" />
+      <workItem from="1720701224350" duration="2400000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -274,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720702349791</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Exemplo exercício 3">
+      <option name="closed" value="true" />
+      <created>1720702900132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720702900132</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +304,7 @@
     <MESSAGE value="Exercício 5" />
     <MESSAGE value="Exemplo exercício 1" />
     <MESSAGE value="Exemplo exercício 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exemplo exercício 2" />
+    <MESSAGE value="Exemplo exercício 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemplo exercício 3" />
   </component>
 </project>
