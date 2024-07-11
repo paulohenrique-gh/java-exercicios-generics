@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Exercício 4">
+    <list default="true" id="f433b8bf-8ce0-4aa0-bb3b-fb85e97804bb" name="Changes" comment="Adiciona separador de linha padrão no teste de simulação de rede">
+      <change afterPath="$PROJECT_DIR$/src/Exercicio5/main/Ajudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio5/main/GerenciadorPersonagens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio5/main/Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio5/main/SuperHeroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio5/main/Vilao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio5/test/GerenciadorPersonagensTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio4/test/SimuladorRedeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio4/test/SimuladorRedeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,9 @@
     "JUnit.FuncionariosTest.devePermitirAdicionarFuncionario.executor": "Run",
     "JUnit.FuncionariosTest.devePermitirRemoverFuncionario.executor": "Run",
     "JUnit.FuncionariosTest.executor": "Run",
+    "JUnit.GerenciadorPersonagensTest.deveFornecerListaDePersonagens.executor": "Run",
+    "JUnit.GerenciadorPersonagensTest.devePermitirAdicionarPersonagem.executor": "Run",
+    "JUnit.GerenciadorPersonagensTest.devePermitirRemoverPersonagem.executor": "Run",
     "JUnit.MaeTest.seApresentaInformandoNomeEIdade.executor": "Run",
     "JUnit.PaiTest.seApresentaInformandoNomeEIdade.executor": "Run",
     "JUnit.SimuladorRedeTest.devePermitirAdicionarComponente.executor": "Run",
@@ -87,6 +95,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Exercicio5.main" />
       <recent name="Exercicio4.main" />
       <recent name="Exercicio3.main" />
     </key>
@@ -94,14 +103,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Exercicio5.test" />
       <recent name="Exercicio4.test" />
       <recent name="Exercicio3.test" />
       <recent name="Exercicio3.main" />
       <recent name="Exercicio2.test" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimuladorRedeTest.deveSimularEnvioDeDadosParaComponentes">
+  <component name="RunManager" selected="JUnit.All in ExerciciosGenerics (1)">
     <configuration name="All in ExerciciosGenerics (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,41 +119,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in ExerciciosGenerics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ExerciciosGenerics" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuncionariosTest.deveFornecerListaDeFuncionarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GerenciadorPersonagensTest.deveFornecerListaDePersonagens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio3.test.*" />
+          <option name="PATTERN" value="Exercicio5.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Exercicio3.test" />
-      <option name="MAIN_CLASS_NAME" value="Exercicio3.test.FuncionariosTest" />
-      <option name="METHOD_NAME" value="deveFornecerListaDeFuncionarios" />
+      <option name="PACKAGE_NAME" value="Exercicio5.test" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio5.test.GerenciadorPersonagensTest" />
+      <option name="METHOD_NAME" value="deveFornecerListaDePersonagens" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimuladorRedeTest.devePermitirAdicionarComponente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GerenciadorPersonagensTest.devePermitirAdicionarPersonagem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio4.test.*" />
+          <option name="PATTERN" value="Exercicio5.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Exercicio4.test" />
-      <option name="MAIN_CLASS_NAME" value="Exercicio4.test.SimuladorRedeTest" />
-      <option name="METHOD_NAME" value="devePermitirAdicionarComponente" />
+      <option name="PACKAGE_NAME" value="Exercicio5.test" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio5.test.GerenciadorPersonagensTest" />
+      <option name="METHOD_NAME" value="devePermitirAdicionarPersonagem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GerenciadorPersonagensTest.devePermitirRemoverPersonagem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ExerciciosGenerics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Exercicio5.test" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio5.test.GerenciadorPersonagensTest" />
+      <option name="METHOD_NAME" value="devePermitirRemoverPersonagem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimuladorRedeTest.deveSimularEnvioDeDadosParaComponentes" />
-        <item itemvalue="JUnit.All in ExerciciosGenerics" />
-        <item itemvalue="JUnit.SimuladorRedeTest.devePermitirAdicionarComponente" />
         <item itemvalue="JUnit.All in ExerciciosGenerics (1)" />
-        <item itemvalue="JUnit.FuncionariosTest.deveFornecerListaDeFuncionarios" />
+        <item itemvalue="JUnit.GerenciadorPersonagensTest.deveFornecerListaDePersonagens" />
+        <item itemvalue="JUnit.GerenciadorPersonagensTest.devePermitirRemoverPersonagem" />
+        <item itemvalue="JUnit.GerenciadorPersonagensTest.devePermitirAdicionarPersonagem" />
+        <item itemvalue="JUnit.SimuladorRedeTest.deveSimularEnvioDeDadosParaComponentes" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720614148383</updated>
-      <workItem from="1720614149448" duration="20310000" />
+      <workItem from="1720614149448" duration="24137000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1&#10;&#10;Criada classe Fila e respectivos testes unitários">
       <option name="closed" value="true" />
@@ -234,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720641324856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adiciona separador de linha padrão no teste de simulação de rede">
+      <option name="closed" value="true" />
+      <created>1720641476524</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720641476524</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +271,7 @@
     <MESSAGE value="Exercicio 3" />
     <MESSAGE value="Adiciona testes unitarios Exercicio 3" />
     <MESSAGE value="Exercício 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercício 4" />
+    <MESSAGE value="Adiciona separador de linha padrão no teste de simulação de rede" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona separador de linha padrão no teste de simulação de rede" />
   </component>
 </project>
